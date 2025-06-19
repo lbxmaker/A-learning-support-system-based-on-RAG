@@ -1,0 +1,15 @@
+pymilvus
+streamlit
+python-dotenv
+tqdm
+certifi
+aiohttp
+anyio
+torch==2.3.1+cu118
+torchvision==0.18.1+cu118
+torchaudio==2.3.1+cu118
+numpy
+pandas
+requests
+urllib3
+pyvis

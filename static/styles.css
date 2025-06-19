@@ -1,0 +1,57 @@
+/* 基础容器样式 */
+.block-container {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/* 垂直块样式 */
+[data-testid="stVerticalBlock"] > [style*="flex-direction: column;"] > [data-testid="stVerticalBlock"] {
+    height: 700px;
+    overflow-y: auto;
+    border: 1px solid #eee;
+    padding: 10px;
+}
+
+/* 文本样式 */
+.stMarkdown, .stMarkdown p, 
+.stTextArea textarea,
+.stText p,
+div[data-testid="stText"] p {
+    font-size: 16px !important;
+}
+
+/* 标题样式 */
+[data-testid="stVerticalBlock"] .stMarkdown h1,
+[data-testid="stVerticalBlock"] h1 {
+    font-size: 32px !important;
+}
+
+[data-testid="stVerticalBlock"] .stMarkdown h2,
+[data-testid="stVerticalBlock"] h2 {
+    font-size: 24px !important;
+}
+
+[data-testid="stVerticalBlock"] .stMarkdown h3,
+[data-testid="stVerticalBlock"] h3 {
+    font-size: 20px !important;
+}
+
+/* 按钮样式 */
+.stButton > button {
+    font-size: 16px;
+}
+
+/* 表单样式 */
+[data-testid="stForm"] textarea {
+    border-radius: 4px !important;
+}
+
+[data-testid="stForm"] button[type="submit"] {
+    color: white !important;
+    border-radius: 4px !important;
+    padding: 0.5rem 1rem !important;
+}
+
+div[data-testid="stForm"] {
+    border: none !important;
+}
